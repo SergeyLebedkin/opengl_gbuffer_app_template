@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\OpenGL4.cpp" />
+    <ClCompile Include="..\..\..\src\AppMain.cpp" />
+    <ClCompile Include="..\..\..\src\InstaUtils.cpp" />
+    <ClCompile Include="..\..\..\src\InstaApp.cpp" />
+    <ClCompile Include="..\..\..\src\InstaMesh.cpp" />
+    <ClCompile Include="..\..\..\src\InstaShaderSources.cpp" />
+    <ClCompile Include="..\..\..\src\InstaShader.cpp" />
+    <ClCompile Include="..\..\..\src\InstaStaticMeshes.cpp" />
+    <ClCompile Include="..\..\..\src\InstaLoaders.cpp" />
+    <ClCompile Include="..\..\..\src\InstaTexture.cpp" />
+    <ClCompile Include="..\..\..\src\InstaLightSources.cpp" />
+    <ClCompile Include="..\..\..\src\imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\imgui\imgui_impl_glfw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\imgui\imgui_impl_opengl4.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\OpenGL4.hpp" />
+    <ClInclude Include="..\..\..\src\InstaUtils.hpp" />
+    <ClInclude Include="..\..\..\src\InstaApp.hpp" />
+    <ClInclude Include="..\..\..\src\InstaMesh.hpp" />
+    <ClInclude Include="..\..\..\src\InstaShaderSources.hpp" />
+    <ClInclude Include="..\..\..\src\InstaShader.hpp" />
+    <ClInclude Include="..\..\..\src\InstaStaticMeshes.hpp" />
+    <ClInclude Include="..\..\..\src\InstaLoaders.hpp" />
+    <ClInclude Include="..\..\..\src\InstaTexture.hpp" />
+    <ClInclude Include="..\..\..\src\InstaLightSources.hpp" />
+    <ClInclude Include="..\..\..\src\imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\imgui\imgui_impl_glfw.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\imgui\imgui_impl_opengl4.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{64da0110-aa72-4d23-84c2-5f8f09a52060}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
